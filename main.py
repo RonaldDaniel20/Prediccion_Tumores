@@ -3,14 +3,16 @@ from routers import healths, modelo
 from fastapi.middleware.cors import CORSMiddleware
 from core.config_logging import configure_logging
 from middlewares.logging_middleware import RequestLoggingMiddleware
+from config import get_settings
 
 
 
 configure_logging()
+URL_FRONT = get_settings().FRONT_URL
 app = FastAPI()
 
 origins = [
-    "http://127.0.0.1:4200"
+    URL_FRONT
 ]
 
 app.add_middleware(RequestLoggingMiddleware)
