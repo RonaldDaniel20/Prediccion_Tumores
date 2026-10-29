@@ -5,4 +5,5 @@ numpy
 opencv-python-headless
 pillow
 pydantic
+pydantic-settings
 google-genai
