@@ -11,6 +11,7 @@ configure_logging()
 URL_FRONT = get_settings().FRONT_URL
 app = FastAPI()
 
+print("URL_FRONT", URL_FRONT)
 origins = [
     URL_FRONT
 ]
