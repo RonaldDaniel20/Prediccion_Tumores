@@ -4,5 +4,5 @@ onnxruntime
 numpy
 opencv-python-headless
 pillow
-pyfatic
+pydantic
 google-genai
