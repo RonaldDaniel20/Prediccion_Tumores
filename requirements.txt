@@ -7,3 +7,4 @@ pillow
 pydantic
 pydantic-settings
 google-genai
+python-multipart
