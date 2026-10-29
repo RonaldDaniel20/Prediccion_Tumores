@@ -1,7 +1,6 @@
 from fastapi import APIRouter
 from dependencias import get_request_data
 from fastapi import UploadFile, HTTPException, Depends
-from PIL import Image
 from services import model_service
 
 

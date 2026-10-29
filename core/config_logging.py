@@ -1,4 +1,3 @@
-import os 
 import logging
 import sys
 from config import get_settings
